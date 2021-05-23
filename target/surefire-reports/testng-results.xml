@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55951" started-at="2021-05-23T22:20:44Z" finished-at="2021-05-23T22:21:40Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5f2050f6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="FlipboardLoginTest" duration-ms="55951" started-at="2021-05-23T22:20:44Z" finished-at="2021-05-23T22:21:40Z">
+      <class name="runner.RunCuke">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunCuke@5f2050f6]" name="setUpClass" is-config="true" duration-ms="288" started-at="2021-05-23T22:20:44Z" finished-at="2021-05-23T22:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5f2050f6]" name="runScenario" duration-ms="14952" started-at="2021-05-23T22:20:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-23T22:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["In order to verify login to flipboard app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5f2050f6]" name="runScenario" duration-ms="14538" started-at="2021-05-23T22:21:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-23T22:21:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["In order to verify login to flipboard app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5f2050f6]" name="runScenario" duration-ms="25477" started-at="2021-05-23T22:21:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-23T22:21:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["In order to Search Items flipboard app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Item Feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at steps.FlipboardSteps.user_enters_the_(FlipboardSteps.java:97)
+at ✽.user enters the airpods(file:src/test/resources/features/SearchItem.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunCuke@5f2050f6]" name="tearDownClass" is-config="true" duration-ms="641" started-at="2021-05-23T22:21:40Z" finished-at="2021-05-23T22:21:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCuke -->
+    </test> <!-- FlipboardLoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>

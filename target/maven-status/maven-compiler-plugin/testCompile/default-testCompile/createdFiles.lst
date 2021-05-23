@@ -1,0 +1,7 @@
+base\TestBase.class
+runner\RunCuke.class
+utilities\ScrollUtil.class
+steps\FlipboardSteps.class
+utilities\AppiumServer.class
+utilities\CommonUtils.class
+steps\FlipboardHooks.class
