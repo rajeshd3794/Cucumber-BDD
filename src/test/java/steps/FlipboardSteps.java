@@ -1,5 +1,6 @@
 package steps;
 
+import org.junit.BeforeClass;
 import org.testng.Assert;
 
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
@@ -25,7 +26,7 @@ public class FlipboardSteps extends TestBase{
 	SearchScreen search;
 	
 	
-	@Before
+	@BeforeClass
 	public void initialization() {
 		
 		setUp();
@@ -94,7 +95,6 @@ public class FlipboardSteps extends TestBase{
 	public void user_enters_the_(String searchText) {
 	  
 		search.searchFlipBoard(searchText);
-		Assert.fail();
 	}
 
 }

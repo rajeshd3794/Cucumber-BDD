@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 56.396 sec <<< FAILURE! - in TestSuite
-runScenario(runner.RunCuke)  Time elapsed: 25.486 sec  <<< FAILURE!
-java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at steps.FlipboardSteps.user_enters_the_(FlipboardSteps.java:97)
-	at ?.user enters the airpods(file:src/test/resources/features/SearchItem.feature:12)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 1.038 sec - in TestSuite
