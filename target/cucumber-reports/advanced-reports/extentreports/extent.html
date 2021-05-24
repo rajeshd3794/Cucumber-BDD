@@ -47,8 +47,7 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
-			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
 		<span class='report-name'>Way2Automation Cucumber Extent Report</span>
@@ -57,7 +56,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>May 23, 2021 05:20:45 PM</span>
+			<span class='label blue darken-3 suite-start-time'>May 23, 2021 10:44:30 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -73,7 +72,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -116,10 +114,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>1</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
                 </div>
             </div>
         </div>
@@ -130,10 +128,10 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> scenario(s) failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
@@ -146,10 +144,10 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='84.615%'><span class='strong'>11</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>12</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='15.385%'>2</span> scenario(s) failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
@@ -172,7 +170,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Login Feature</span>
-						<span class='test-time'>May 23, 2021 05:20:53 PM</span>
+						<span class='test-time'>May 23, 2021 10:44:39 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -186,7 +184,7 @@
   As a User
   I want to launch the Flipboard app and perform login</div>
 <div class='scenario outline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 17s+756ms</span>
+	<span class='duration right label'>0h 0m 18s+937ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: In order to verify login to flipboard app</div>
 		<table class='runtime-table table-striped table'><tr><td>topicCount</td></tr><tr><td>3</td></tr><tr><td>4</td></tr></table>
@@ -230,11 +228,11 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='15'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='15'>
 					<div class='test-heading'>
 						<span class='test-name'>Search Item Feature</span>
-						<span class='test-time'>May 23, 2021 05:21:21 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>May 23, 2021 10:45:10 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -246,15 +244,15 @@
 <div class='test-desc'>In order to perform successul Search
   As a User
   I want to launch the Flipboard app and perform login and search Items</div>
-<div class='scenario outline node' test-id='16' status='fail'>
-	<span class='duration right label'>0h 0m 14s+373ms</span>
+<div class='scenario outline node' test-id='16' status='pass'>
+	<span class='duration right label'>0h 0m 16s+465ms</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario Outline: In order to Search Items flipboard app</div>
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: In order to Search Items flipboard app</div>
 		<table class='runtime-table table-striped table'><tr><td>topicCount</td><td>searchText</td></tr><tr><td>3</td><td>airpods</td></tr></table>
 	</div>
 	<ul class='steps'>
-		<li test-id='17' class='node scenario fail' status='fail'>
-			<div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>In order to Search Items flipboard app</div>
+		<li test-id='17' class='node scenario pass' status='pass'>
+			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>In order to Search Items flipboard app</div>
 			<ul class='gc steps'>
 				<li test-id='19' class='gc given pass' status='pass'>
 					<h6 class="step-name" title="FlipboardSteps.user_clicks_on_getStartedButton()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given user clicks on getStartedButton</h6>
@@ -276,21 +274,9 @@
 					<h6 class="step-name" title="FlipboardSteps.user_clicks_on_search_panel()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And user clicks on search panel</h6>
 					<div class="node-step"></div>
 				</li>
-				<li test-id='24' class='gc and fail' status='fail'>
-					<h6 class="step-name" title="FlipboardSteps.user_enters_the_(String)"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>And user enters the airpods</h6>
-					<textarea disabled class="code-block">java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at steps.FlipboardSteps.user_enters_the_(FlipboardSteps.java:97)
-	at ?.user enters the airpods(file:src/test/resources/features/SearchItem.feature:12)
-</textarea>
-				</li>
-				<li test-id='25' class='gc * fail' status='fail'>
-					<h6 class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>FlipboardSteps.tearDown(Scenario)</h6>
-					<ul class='screenshots right'>
-						<li><a data-featherlight="image" href="C:\Users\rajes\Desktop\CucumberPageObjects\reports\Sun_May_23_17_21_36_CDT_2021.jpg"><i class='material-icons'>panorama</i></a></li>
-					</ul>
-					<div class="node-step">Screenshot Attached -----></div>
+				<li test-id='24' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="FlipboardSteps.user_enters_the_(String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And user enters the airpods</h6>
+					<div class="node-step"></div>
 				</li>
 			</ul>
 		</li>
@@ -318,67 +304,7 @@
 	</div>
 	<!-- subview right -->
 </div>
-<!-- test view --><!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.AssertionError</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>May 23, 2021 05:21:30 PM</td>
-										<td class='linked' test-id='24'>And user enters the airpods</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at steps.FlipboardSteps.user_enters_the_(FlipboardSteps.java:97)
-	at ?.user enters the airpods(file:src/test/resources/features/SearchItem.feature:12)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -398,25 +324,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>13</div>
+					<div class='panel-lead'>12</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>May 23, 2021 05:20:45 PM</div>
+					<div class='panel-lead'>May 23, 2021 10:44:30 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>May 23, 2021 05:21:40 PM</div>
+			 		<div class='panel-lead'>May 23, 2021 10:45:30 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 55s+345ms</div>
+					<div class='panel-lead'>0h 1m 0s+18ms</div>
 				</div>
 			</div>
 		</div>
@@ -428,38 +354,38 @@
 		<script>
 			var statusGroup = {
                 parentCount: 2,
-				passParent: 1,
-				failParent: 1,
+				passParent: 2,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				childCount: 3,
-				passChild: 2,
-				failChild: 1,
+				passChild: 3,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 1,
-				grandChildCount: 13,
-				passGrandChild: 11,
-				failGrandChild: 2,
+				exceptionsChild: 0,
+				grandChildCount: 12,
+				passGrandChild: 12,
+				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
 				skipGrandChild: 0,
 				infoGrandChild: 0,
 				debugGrandChild: 0,
-				exceptionsGrandChild: 2,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		<script>
 			var timeline = {
-			        "Login Feature":17.756,"Search Item Feature":14.373
+			        "Login Feature":18.937,"Search Item Feature":16.465
 			};
 		</script>
 	

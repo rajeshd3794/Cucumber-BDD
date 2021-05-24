@@ -1,5 +1,5 @@
-2021-05-23 19:58:54:590 [Appium] Welcome to Appium v1.21.0
-2021-05-23 19:58:54:591 [Appium] Non-default server args:
-2021-05-23 19:58:54:592 [Appium]   logFile: C:\Users\rajes\Desktop\Cucumber_BDD_Test_Automation_Demo\src\test\resources\logs\log.txt
-2021-05-23 19:58:54:592 [Appium]   localTimezone: true
-2021-05-23 19:58:54:641 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+2021-05-23 22:42:31:843 [Appium] Welcome to Appium v1.21.0
+2021-05-23 22:42:31:845 [Appium] Non-default server args:
+2021-05-23 22:42:31:845 [Appium]   logFile: C:\Users\rajes\Desktop\Cucumber_BDD_Test_Automation_Demo\src\test\resources\logs\log.txt
+2021-05-23 22:42:31:846 [Appium]   localTimezone: true
+2021-05-23 22:42:31:879 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.

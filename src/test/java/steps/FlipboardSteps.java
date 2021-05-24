@@ -26,7 +26,7 @@ public class FlipboardSteps extends TestBase{
 	SearchScreen search;
 	
 	
-	@BeforeClass
+	@Before
 	public void initialization() {
 		
 		setUp();

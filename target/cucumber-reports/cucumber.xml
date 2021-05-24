@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="54.850829">
-<testcase classname="Login Feature" name="In order to verify login to flipboard app" time="14.83596">
-<system-out><![CDATA[Given user clicks on getStartedButton.......................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="59.281936">
+    <testcase classname="Login Feature" name="In order to verify login to flipboard app" time="15.688176">
+        <system-out><![CDATA[Given user clicks on getStartedButton.......................................passed
 When user selects 3 topics..................................................passed
 Then user clicks on continue button.........................................passed
 ]]></system-out>
-</testcase>
-<testcase classname="Login Feature" name="In order to verify login to flipboard app 2" time="14.537555">
-<system-out><![CDATA[Given user clicks on getStartedButton.......................................passed
+    </testcase>
+    <testcase classname="Login Feature" name="In order to verify login to flipboard app 2" time="15.550034">
+        <system-out><![CDATA[Given user clicks on getStartedButton.......................................passed
 When user selects 4 topics..................................................passed
 Then user clicks on continue button.........................................passed
 ]]></system-out>
-</testcase>
-<testcase classname="Search Item Feature" name="In order to Search Items flipboard app" time="25.477314">
-<failure message="java.lang.AssertionError: null&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:103)&#13;&#10;&#9;at steps.FlipboardSteps.user_enters_the_(FlipboardSteps.java:97)&#13;&#10;&#9;at ✽.user enters the airpods(file:src/test/resources/features/SearchItem.feature:12)&#13;&#10;"><![CDATA[Given user clicks on getStartedButton.......................................passed
+    </testcase>
+    <testcase classname="Search Item Feature" name="In order to Search Items flipboard app" time="28.043726">
+        <system-out><![CDATA[Given user clicks on getStartedButton.......................................passed
 When user selects 3 topics..................................................passed
 Then user clicks on continue button.........................................passed
 And user clicks on skip for now button......................................passed
 And user clicks on search panel.............................................passed
-And user enters the airpods.................................................failed
-
-StackTrace:
-java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at steps.FlipboardSteps.user_enters_the_(FlipboardSteps.java:97)
-	at ✽.user enters the airpods(file:src/test/resources/features/SearchItem.feature:12)
-]]></failure>
-</testcase>
+And user enters the airpods.................................................passed
+]]></system-out>
+    </testcase>
 </testsuite>

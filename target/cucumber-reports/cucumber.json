@@ -3,77 +3,151 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-24T02:33:53.073Z",
+        "start_timestamp": "2021-05-24T03:44:30.740Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8826672600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipboardSteps.initialization()"
+            }
+          }
+        ],
         "line": 13,
         "name": "In order to verify login to flipboard app",
         "description": "",
         "id": "login-feature;in-order-to-verify-login-to-flipboard-app;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3455540400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipboardSteps.tearDown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 1389290700,
+              "status": "passed"
             },
             "line": 7,
             "name": "user clicks on getStartedButton",
-            "match": {},
+            "match": {
+              "location": "FlipboardSteps.user_clicks_on_getStartedButton()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1314322300,
+              "status": "passed"
             },
             "line": 8,
             "name": "user selects 3 topics",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 13
+                }
+              ],
+              "location": "FlipboardSteps.user_selects_topics(Integer)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 680676400,
+              "status": "passed"
             },
             "line": 9,
             "name": "user clicks on continue button",
-            "match": {},
+            "match": {
+              "location": "FlipboardSteps.user_clicks_on_continue_button()"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-05-24T02:33:53.077Z",
+        "start_timestamp": "2021-05-24T03:44:46.433Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8190377200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipboardSteps.initialization()"
+            }
+          }
+        ],
         "line": 14,
         "name": "In order to verify login to flipboard app",
         "description": "",
         "id": "login-feature;in-order-to-verify-login-to-flipboard-app;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3407781100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipboardSteps.tearDown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 198010000,
+              "status": "passed"
             },
             "line": 7,
             "name": "user clicks on getStartedButton",
-            "match": {},
+            "match": {
+              "location": "FlipboardSteps.user_clicks_on_getStartedButton()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3633149900,
+              "status": "passed"
             },
             "line": 8,
             "name": "user selects 4 topics",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 13
+                }
+              ],
+              "location": "FlipboardSteps.user_selects_topics(Integer)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 118692900,
+              "status": "passed"
             },
             "line": 9,
             "name": "user clicks on continue button",
-            "match": {},
+            "match": {
+              "location": "FlipboardSteps.user_clicks_on_continue_button()"
+            },
             "keyword": "Then "
           }
         ]
@@ -90,66 +164,118 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-24T02:33:53.080Z",
+        "start_timestamp": "2021-05-24T03:45:01.988Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8126518300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipboardSteps.initialization()"
+            }
+          }
+        ],
         "line": 16,
         "name": "In order to Search Items flipboard app",
         "description": "",
         "id": "search-item-feature;in-order-to-search-items-flipboard-app;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3448552400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipboardSteps.tearDown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 191430600,
+              "status": "passed"
             },
             "line": 7,
             "name": "user clicks on getStartedButton",
-            "match": {},
+            "match": {
+              "location": "FlipboardSteps.user_clicks_on_getStartedButton()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2383234500,
+              "status": "passed"
             },
             "line": 8,
             "name": "user selects 3 topics",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 13
+                }
+              ],
+              "location": "FlipboardSteps.user_selects_topics(Integer)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 667288900,
+              "status": "passed"
             },
             "line": 9,
             "name": "user clicks on continue button",
-            "match": {},
+            "match": {
+              "location": "FlipboardSteps.user_clicks_on_continue_button()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1083513600,
+              "status": "passed"
             },
             "line": 10,
             "name": "user clicks on skip for now button",
-            "match": {},
+            "match": {
+              "location": "FlipboardSteps.user_clicks_on_skip_for_now_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5857125500,
+              "status": "passed"
             },
             "line": 11,
             "name": "user clicks on search panel",
-            "match": {},
+            "match": {
+              "location": "FlipboardSteps.user_clicks_on_search_panel()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 6281940600,
+              "status": "passed"
             },
             "line": 12,
             "name": "user enters the airpods",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "airpods",
+                  "offset": 16
+                }
+              ],
+              "location": "FlipboardSteps.user_enters_the_(String)"
+            },
             "keyword": "And "
           }
         ]
